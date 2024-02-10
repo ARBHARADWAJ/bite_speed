@@ -57,7 +57,7 @@ const getSecondaryContacts = async (primaryContactId) => {
 
     return secondaryContacts;
   } catch (error) {
-    console.error("Error occurred while retrieving secondary contacts:", error);
+    console.error("Error occurred at retrieving secondary contacts:", error);
     throw error;
   }
 };
@@ -72,7 +72,7 @@ const updateContactAsSecondary = async (
   try {
     await pool.query(query, values);
   } catch (error) {
-    console.error("Error occurred while updating ", error);
+    console.error("Error occurred at  updating", error);
     throw error;
   }
 };
