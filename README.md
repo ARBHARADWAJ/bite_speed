@@ -1,4 +1,5 @@
-Bite Speed Assignment API Documentation
+Bitespeed Backend Task: Identity Reconciliation 
+Assignment API Documentation
 Firstly,Thank you for the oppurnity.
 This is the api with the functionality which are given in assignemnet and its hosted link is provided below
 The backedn is created in nodejs and the database is prostgres whihchis handled by the render.com,they provided a basic online db for the projects.
